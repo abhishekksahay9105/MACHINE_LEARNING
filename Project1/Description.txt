@@ -1,0 +1,43 @@
+                                                    Project 1: Hands On Real World ML Problem
+                                                                                        ---Code With Harry
+
+Introduction:
+    The CEO of "Dragon Real Estate" want a machine learning model that can pridict actual price of House taking some features for the houses as input.
+
+Problem TearDown:
+    1. We are given dataset of house prices with some features like no of bathrooms, no bedrooms, etc.
+    2. Our taskis to create a model which will predict the price for any new house ny looking at the features.
+    3. While learning about Machine Learning it is best to actually work with real-world data, not just artifical datasets.
+    4. There are hundreds of open datasets to choose from. We have already talked about the same in this ML course.
+
+Getting Started:
+    1. The first question Harry should ask Mr. Joseph what is the business objective and end goal? How will Dragon real estates bebefil from the model.
+    2. Mr. Joseph tells harry that Dragon real estates will use the model to predict house prices in a given area and will incvest int eh area if its undervalued.
+    3. Next question Harry should ask Mr. Joseph is how does the current solution look like? The answer is - Manual experts who analyze the features.
+    4. The predictions made by so called "experts" are not very good (error rate is 25%) which is why Dragon real estates Pvt. Ltd. os counting on Harry.
+
+Finding The Type Of Model to Build:
+    1. Supervised, Unsupervised, or Reinforcement Learning?
+    2. Classification task or Regression task?
+    3. Batch learning or online learning techniques?
+
+Selecting a Performance Measure:
+    1. A typical Performance measure for regression probelms is the Root Mean Square Error (RMSE).
+    2. RMSE is generally the preferred performance measure for regression task, so we choose it for this particular problems we are solving for Dragon real estates
+       Pvt. Ltd.
+    3. Other performance measure include Mean Absolure Error, Manhanttan norm, etc but we will use RMSE for the Problems.
+
+Checking the Assumptions:
+    1. It is very important for harry to check for any assumptions he might have made and correct them before launching ML system.
+    2. For example, he should make sure that the team needs the price and not the categories like expensive, cheap, etc.
+    3. It latter is the case, formulating the problem as a regression task will be counted as a big mistake.
+    4. Harry talked to the Dragon real estate team members and ensured that he is aware of all the assumptions.
+
+
+Software Setup:
+    Commands:
+        winget install Python
+        pip3 install --upgrade numpy scikit-learn matplotlib scipy jupyter pandas
+
+Getting DataSet:
+    Go Kaggle.com and download DataSet From their.
