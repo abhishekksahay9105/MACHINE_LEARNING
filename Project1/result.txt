@@ -1,0 +1,14 @@
+Models Outputs
+
+1. Decision Tree:
+	Mean:
+	Standard Deviation:
+
+2. Linear Regression:
+	Mean:
+	Standard Deviation:
+
+3. Random Forest Regression:
+	Mean:
+	Standard Deviation:
+
